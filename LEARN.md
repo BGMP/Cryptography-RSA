@@ -8,8 +8,12 @@ python decipher.py --public-key alice.pub --private-key bob.pem -p [password]
 
 Explanation
 ---
+In order to situate ourselves in a scenario where RSA encryption can be applied, we will take two actors named Alice and
+Bob, for instance. Both actors will generate a key pair, exchange their public keys and be able to encrypt and decrypt
+messages between each other at the end of this explanation. Follow the lecture closely and it will all be clear!
+
 First, both users execute the `keygen.py` script, which will generate a pair of RSA keys (public and private) for each
-one of them. We will call both users in this example Alice and Bob.
+one of them.
 
 Optionally, the RSA keys may be generated with a password. In this case, in order to cipher and decipher messages using
 these keys, Alice and Bob must pass their passwords to the `cipher.py` and `decipher.py` scripts through the '-p'
