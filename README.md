@@ -22,4 +22,5 @@ python decipher.py --public-key alice.pub --private-key bob.pem -p [password]
 ```
 
 ## Learn
-You may find a very detailed explanation on how this project works in real time by reading the LEARN.md file.
+You may find a very detailed explanation on how this project works in real time by reading the [LEARN.md](./LEARN.md)
+file.
